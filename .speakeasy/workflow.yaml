@@ -1,0 +1,19 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Ynab-OAS:
+        inputs:
+            - location: registry.speakeasyapi.dev/walker/ynab/ynab-api:main
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/walker/ynab/ynab-oas
+targets:
+    ynab:
+        target: csharp
+        source: Ynab-OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/walker/ynab/ynab-oas-csharp-code-samples
+            labelOverride:
+                fixedValue: Csharp (SDK)
+            blocking: false

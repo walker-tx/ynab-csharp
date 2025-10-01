@@ -1,0 +1,871 @@
+lockVersion: 2.0.0
+id: 70221ac3-f6fb-46dc-bf25-46a34d5b79ff
+management:
+  docChecksum: bb0f93f0a512f51fdce46178ad7a48cd
+  docVersion: 1.77.0
+  speakeasyVersion: 1.625.0
+  generationVersion: 2.715.0
+  releaseVersion: 0.0.1
+  configChecksum: 3fc0f54940ed48c41227610ea13dd66c
+features:
+  csharp:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.0.1
+    core: 3.12.3
+    errors: 1.0.0
+    flattening: 2.81.3
+    globalSecurity: 2.83.8
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.4
+    groups: 2.81.2
+    intellisenseMarkdownSupport: 0.1.0
+    methodArguments: 0.2.1
+    nameOverrides: 2.81.2
+    nullables: 0.1.1
+    responseFormat: 0.0.4
+    sdkHooks: 0.2.0
+generatedFiles:
+  - .gitattributes
+  - USAGE.md
+  - WalkerTX.Ynab.SDK.sln
+  - docs/Models/Components/Account.md
+  - docs/Models/Components/AccountResponse.md
+  - docs/Models/Components/AccountResponseData.md
+  - docs/Models/Components/AccountType.md
+  - docs/Models/Components/AccountsResponse.md
+  - docs/Models/Components/AccountsResponseData.md
+  - docs/Models/Components/BudgetDetail.md
+  - docs/Models/Components/BudgetDetailResponse.md
+  - docs/Models/Components/BudgetDetailResponseData.md
+  - docs/Models/Components/BudgetSettings.md
+  - docs/Models/Components/BudgetSettingsResponse.md
+  - docs/Models/Components/BudgetSettingsResponseData.md
+  - docs/Models/Components/BudgetSummary.md
+  - docs/Models/Components/BudgetSummaryResponse.md
+  - docs/Models/Components/BudgetSummaryResponseData.md
+  - docs/Models/Components/CategoriesResponse.md
+  - docs/Models/Components/CategoriesResponseData.md
+  - docs/Models/Components/Category.md
+  - docs/Models/Components/CategoryGroup.md
+  - docs/Models/Components/CategoryGroupWithCategories.md
+  - docs/Models/Components/CategoryResponse.md
+  - docs/Models/Components/CategoryResponseData.md
+  - docs/Models/Components/CurrencyFormat.md
+  - docs/Models/Components/DateFormat.md
+  - docs/Models/Components/DefaultBudget.md
+  - docs/Models/Components/ErrorDetail.md
+  - docs/Models/Components/ExistingTransaction.md
+  - docs/Models/Components/GoalType.md
+  - docs/Models/Components/HTTPMetadata.md
+  - docs/Models/Components/HybridTransaction.md
+  - docs/Models/Components/HybridTransactionDebtTransactionType.md
+  - docs/Models/Components/HybridTransactionsResponse.md
+  - docs/Models/Components/HybridTransactionsResponseData.md
+  - docs/Models/Components/MonthDetail.md
+  - docs/Models/Components/MonthDetailResponse.md
+  - docs/Models/Components/MonthDetailResponseData.md
+  - docs/Models/Components/MonthSummariesResponse.md
+  - docs/Models/Components/MonthSummariesResponseData.md
+  - docs/Models/Components/MonthSummary.md
+  - docs/Models/Components/NewTransaction.md
+  - docs/Models/Components/PatchCategoryWrapper.md
+  - docs/Models/Components/PatchMonthCategoryWrapper.md
+  - docs/Models/Components/PatchPayeeWrapper.md
+  - docs/Models/Components/PatchTransactionsWrapper.md
+  - docs/Models/Components/Payee.md
+  - docs/Models/Components/PayeeLocation.md
+  - docs/Models/Components/PayeeLocationResponse.md
+  - docs/Models/Components/PayeeLocationResponseData.md
+  - docs/Models/Components/PayeeLocationsResponse.md
+  - docs/Models/Components/PayeeLocationsResponseData.md
+  - docs/Models/Components/PayeeResponse.md
+  - docs/Models/Components/PayeeResponseData.md
+  - docs/Models/Components/PayeesResponse.md
+  - docs/Models/Components/PayeesResponseData.md
+  - docs/Models/Components/PostAccountWrapper.md
+  - docs/Models/Components/PostScheduledTransactionWrapper.md
+  - docs/Models/Components/PostTransactionsWrapper.md
+  - docs/Models/Components/PutScheduledTransactionWrapper.md
+  - docs/Models/Components/PutTransactionWrapper.md
+  - docs/Models/Components/SaveAccount.md
+  - docs/Models/Components/SaveCategory.md
+  - docs/Models/Components/SaveCategoryResponse.md
+  - docs/Models/Components/SaveCategoryResponseData.md
+  - docs/Models/Components/SaveMonthCategory.md
+  - docs/Models/Components/SavePayee.md
+  - docs/Models/Components/SavePayeeResponse.md
+  - docs/Models/Components/SavePayeeResponseData.md
+  - docs/Models/Components/SaveScheduledTransaction.md
+  - docs/Models/Components/SaveSubTransaction.md
+  - docs/Models/Components/SaveTransactionWithIdOrImportId.md
+  - docs/Models/Components/SaveTransactionsResponse.md
+  - docs/Models/Components/SaveTransactionsResponseData.md
+  - docs/Models/Components/ScheduledSubTransaction.md
+  - docs/Models/Components/ScheduledTransactionDetail.md
+  - docs/Models/Components/ScheduledTransactionDetailFrequency.md
+  - docs/Models/Components/ScheduledTransactionFrequency.md
+  - docs/Models/Components/ScheduledTransactionResponse.md
+  - docs/Models/Components/ScheduledTransactionResponseData.md
+  - docs/Models/Components/ScheduledTransactionSummary.md
+  - docs/Models/Components/ScheduledTransactionSummaryFrequency.md
+  - docs/Models/Components/ScheduledTransactionsResponse.md
+  - docs/Models/Components/ScheduledTransactionsResponseData.md
+  - docs/Models/Components/Security.md
+  - docs/Models/Components/SubTransaction.md
+  - docs/Models/Components/TransactionClearedStatus.md
+  - docs/Models/Components/TransactionDetail.md
+  - docs/Models/Components/TransactionDetailDebtTransactionType.md
+  - docs/Models/Components/TransactionFlagColor.md
+  - docs/Models/Components/TransactionResponse.md
+  - docs/Models/Components/TransactionResponseData.md
+  - docs/Models/Components/TransactionSummary.md
+  - docs/Models/Components/TransactionSummaryDebtTransactionType.md
+  - docs/Models/Components/TransactionsImportResponse.md
+  - docs/Models/Components/TransactionsImportResponseData.md
+  - docs/Models/Components/TransactionsResponse.md
+  - docs/Models/Components/TransactionsResponseData.md
+  - docs/Models/Components/Type.md
+  - docs/Models/Components/User.md
+  - docs/Models/Components/UserResponse.md
+  - docs/Models/Components/UserResponseData.md
+  - docs/Models/Errors/ErrorResponse.md
+  - docs/Models/Requests/CreateAccountRequest.md
+  - docs/Models/Requests/CreateAccountResponse.md
+  - docs/Models/Requests/CreateScheduledTransactionRequest.md
+  - docs/Models/Requests/CreateScheduledTransactionResponse.md
+  - docs/Models/Requests/CreateTransactionRequest.md
+  - docs/Models/Requests/CreateTransactionResponse.md
+  - docs/Models/Requests/DeleteScheduledTransactionRequest.md
+  - docs/Models/Requests/DeleteScheduledTransactionResponse.md
+  - docs/Models/Requests/DeleteTransactionRequest.md
+  - docs/Models/Requests/DeleteTransactionResponse.md
+  - docs/Models/Requests/GetAccountByIdRequest.md
+  - docs/Models/Requests/GetAccountByIdResponse.md
+  - docs/Models/Requests/GetAccountsRequest.md
+  - docs/Models/Requests/GetAccountsResponse.md
+  - docs/Models/Requests/GetBudgetByIdRequest.md
+  - docs/Models/Requests/GetBudgetByIdResponse.md
+  - docs/Models/Requests/GetBudgetMonthRequest.md
+  - docs/Models/Requests/GetBudgetMonthResponse.md
+  - docs/Models/Requests/GetBudgetMonthsRequest.md
+  - docs/Models/Requests/GetBudgetMonthsResponse.md
+  - docs/Models/Requests/GetBudgetSettingsByIdRequest.md
+  - docs/Models/Requests/GetBudgetSettingsByIdResponse.md
+  - docs/Models/Requests/GetBudgetsRequest.md
+  - docs/Models/Requests/GetBudgetsResponse.md
+  - docs/Models/Requests/GetCategoriesRequest.md
+  - docs/Models/Requests/GetCategoriesResponse.md
+  - docs/Models/Requests/GetCategoryByIdRequest.md
+  - docs/Models/Requests/GetCategoryByIdResponse.md
+  - docs/Models/Requests/GetMonthCategoryByIdRequest.md
+  - docs/Models/Requests/GetMonthCategoryByIdResponse.md
+  - docs/Models/Requests/GetPayeeByIdRequest.md
+  - docs/Models/Requests/GetPayeeByIdResponse.md
+  - docs/Models/Requests/GetPayeeLocationByIdRequest.md
+  - docs/Models/Requests/GetPayeeLocationByIdResponse.md
+  - docs/Models/Requests/GetPayeeLocationsByPayeeRequest.md
+  - docs/Models/Requests/GetPayeeLocationsByPayeeResponse.md
+  - docs/Models/Requests/GetPayeeLocationsRequest.md
+  - docs/Models/Requests/GetPayeeLocationsResponse.md
+  - docs/Models/Requests/GetPayeesRequest.md
+  - docs/Models/Requests/GetPayeesResponse.md
+  - docs/Models/Requests/GetScheduledTransactionByIdRequest.md
+  - docs/Models/Requests/GetScheduledTransactionByIdResponse.md
+  - docs/Models/Requests/GetScheduledTransactionsRequest.md
+  - docs/Models/Requests/GetScheduledTransactionsResponse.md
+  - docs/Models/Requests/GetTransactionByIdRequest.md
+  - docs/Models/Requests/GetTransactionByIdResponse.md
+  - docs/Models/Requests/GetTransactionsByAccountRequest.md
+  - docs/Models/Requests/GetTransactionsByAccountResponse.md
+  - docs/Models/Requests/GetTransactionsByAccountType.md
+  - docs/Models/Requests/GetTransactionsByCategoryRequest.md
+  - docs/Models/Requests/GetTransactionsByCategoryResponse.md
+  - docs/Models/Requests/GetTransactionsByCategoryType.md
+  - docs/Models/Requests/GetTransactionsByMonthRequest.md
+  - docs/Models/Requests/GetTransactionsByMonthResponse.md
+  - docs/Models/Requests/GetTransactionsByMonthType.md
+  - docs/Models/Requests/GetTransactionsByPayeeRequest.md
+  - docs/Models/Requests/GetTransactionsByPayeeResponse.md
+  - docs/Models/Requests/GetTransactionsByPayeeType.md
+  - docs/Models/Requests/GetTransactionsRequest.md
+  - docs/Models/Requests/GetTransactionsResponse.md
+  - docs/Models/Requests/GetTransactionsType.md
+  - docs/Models/Requests/GetUserResponse.md
+  - docs/Models/Requests/ImportTransactionsRequest.md
+  - docs/Models/Requests/ImportTransactionsResponse.md
+  - docs/Models/Requests/UpdateCategoryRequest.md
+  - docs/Models/Requests/UpdateCategoryResponse.md
+  - docs/Models/Requests/UpdateMonthCategoryRequest.md
+  - docs/Models/Requests/UpdateMonthCategoryResponse.md
+  - docs/Models/Requests/UpdatePayeeRequest.md
+  - docs/Models/Requests/UpdatePayeeResponse.md
+  - docs/Models/Requests/UpdateScheduledTransactionRequest.md
+  - docs/Models/Requests/UpdateScheduledTransactionResponse.md
+  - docs/Models/Requests/UpdateTransactionRequest.md
+  - docs/Models/Requests/UpdateTransactionResponse.md
+  - docs/Models/Requests/UpdateTransactionsRequest.md
+  - docs/Models/Requests/UpdateTransactionsResponse.md
+  - docs/sdks/accounts/README.md
+  - docs/sdks/budgets/README.md
+  - docs/sdks/categories/README.md
+  - docs/sdks/months/README.md
+  - docs/sdks/payeelocations/README.md
+  - docs/sdks/payees/README.md
+  - docs/sdks/scheduledtransactions/README.md
+  - docs/sdks/transactions/README.md
+  - docs/sdks/user/README.md
+  - docs/sdks/ynab/README.md
+  - global.json
+  - src/WalkerTX/Ynab/SDK/Accounts.cs
+  - src/WalkerTX/Ynab/SDK/Budgets.cs
+  - src/WalkerTX/Ynab/SDK/Categories.cs
+  - src/WalkerTX/Ynab/SDK/Hooks/HookTypes.cs
+  - src/WalkerTX/Ynab/SDK/Hooks/SDKHooks.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/Account.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/AccountResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/AccountResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/AccountType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/AccountsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/AccountsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetDetail.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetDetailResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetDetailResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSettings.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSettingsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSettingsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSummary.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSummaryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/BudgetSummaryResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoriesResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoriesResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/Category.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoryGroup.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoryGroupWithCategories.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CategoryResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/CurrencyFormat.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/DateFormat.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/DefaultBudget.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ErrorDetail.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ExistingTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/GoalType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/HTTPMetadata.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/HybridTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/HybridTransactionDebtTransactionType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/HybridTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/HybridTransactionsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthDetail.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthDetailResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthDetailResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthSummariesResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthSummariesResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/MonthSummary.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/NewTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PatchCategoryWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PatchMonthCategoryWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PatchPayeeWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PatchTransactionsWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/Payee.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeLocation.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeLocationResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeLocationResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeLocationsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeLocationsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeeResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeesResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PayeesResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PostAccountWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PostScheduledTransactionWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PostTransactionsWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PutScheduledTransactionWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/PutTransactionWrapper.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveAccount.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveCategory.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveCategoryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveCategoryResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveMonthCategory.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SavePayee.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SavePayeeResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SavePayeeResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveScheduledTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveSubTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveTransactionWithIdOrImportId.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SaveTransactionsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledSubTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionDetail.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionDetailFrequency.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionFrequency.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionSummary.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionSummaryFrequency.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/ScheduledTransactionsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/Security.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/SubTransaction.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionClearedStatus.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionDetail.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionDetailDebtTransactionType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionFlagColor.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionSummary.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionSummaryDebtTransactionType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionsImportResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionsImportResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/TransactionsResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/Type.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/User.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/UserResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Components/UserResponseData.cs
+  - src/WalkerTX/Ynab/SDK/Models/Errors/APIException.cs
+  - src/WalkerTX/Ynab/SDK/Models/Errors/ErrorResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Errors/ResponseValidationException.cs
+  - src/WalkerTX/Ynab/SDK/Models/Errors/YnabException.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateAccountRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateAccountResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateScheduledTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateScheduledTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/CreateTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/DeleteScheduledTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/DeleteScheduledTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/DeleteTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/DeleteTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetAccountByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetAccountByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetAccountsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetAccountsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetMonthRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetMonthResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetMonthsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetMonthsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetSettingsByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetSettingsByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetBudgetsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetCategoriesRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetCategoriesResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetCategoryByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetCategoryByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetMonthCategoryByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetMonthCategoryByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationsByPayeeRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationsByPayeeResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeeLocationsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeesRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetPayeesResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetScheduledTransactionByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetScheduledTransactionByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetScheduledTransactionsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetScheduledTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionByIdRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionByIdResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByAccountRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByAccountResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByAccountType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByCategoryRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByCategoryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByCategoryType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByMonthRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByMonthResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByMonthType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByPayeeRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByPayeeResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsByPayeeType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetTransactionsType.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/GetUserResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/ImportTransactionsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/ImportTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateCategoryRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateCategoryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateMonthCategoryRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateMonthCategoryResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdatePayeeRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdatePayeeResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateScheduledTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateScheduledTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateTransactionRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateTransactionResponse.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateTransactionsRequest.cs
+  - src/WalkerTX/Ynab/SDK/Models/Requests/UpdateTransactionsResponse.cs
+  - src/WalkerTX/Ynab/SDK/Months.cs
+  - src/WalkerTX/Ynab/SDK/PayeeLocations.cs
+  - src/WalkerTX/Ynab/SDK/Payees.cs
+  - src/WalkerTX/Ynab/SDK/SDKConfig.cs
+  - src/WalkerTX/Ynab/SDK/ScheduledTransactions.cs
+  - src/WalkerTX/Ynab/SDK/Transactions.cs
+  - src/WalkerTX/Ynab/SDK/User.cs
+  - src/WalkerTX/Ynab/SDK/Utils/AnyDeserializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/BigIntStrConverter.cs
+  - src/WalkerTX/Ynab/SDK/Utils/DecimalStrConverter.cs
+  - src/WalkerTX/Ynab/SDK/Utils/EnumConverter.cs
+  - src/WalkerTX/Ynab/SDK/Utils/FlexibleObjectDeserializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/HeaderSerializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/IsoDateTimeSerializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/OpenEnumConverter.cs
+  - src/WalkerTX/Ynab/SDK/Utils/RequestBodySerializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/ResponseBodyDeserializer.cs
+  - src/WalkerTX/Ynab/SDK/Utils/Retries/BackoffStrategy.cs
+  - src/WalkerTX/Ynab/SDK/Utils/Retries/Retries.cs
+  - src/WalkerTX/Ynab/SDK/Utils/Retries/RetryConfig.cs
+  - src/WalkerTX/Ynab/SDK/Utils/SecurityMetadata.cs
+  - src/WalkerTX/Ynab/SDK/Utils/SpeakeasyMetadata.cs
+  - src/WalkerTX/Ynab/SDK/Utils/URLBuilder.cs
+  - src/WalkerTX/Ynab/SDK/Utils/Utilities.cs
+  - src/WalkerTX/Ynab/SDK/Utils/YnabHttpClient.cs
+  - src/WalkerTX/Ynab/SDK/WalkerTX.Ynab.SDK.csproj
+  - src/WalkerTX/Ynab/SDK/Ynab.cs
+examples:
+  getUser:
+    speakeasy-default-get-user:
+      responses:
+        "200":
+          application/json: {"data": {"user": {"id": "23d6a551-c558-4ea6-af9d-e8b1650326ce"}}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getBudgets:
+    speakeasy-default-get-budgets:
+      responses:
+        "200":
+          application/json: {"data": {"budgets": [{"id": "b1af8d1b-c44f-4d6b-80bc-e8a00ce88649", "name": "<value>"}]}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getBudgetById:
+    speakeasy-default-get-budget-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"budget": {"id": "4eb70827-b301-483b-9a36-b03d018b3822", "name": "<value>"}, "server_knowledge": 277787}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getBudgetSettingsById:
+    speakeasy-default-get-budget-settings-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"settings": {"date_format": {"format": "<value>"}, "currency_format": {"iso_code": "<value>", "example_format": "<value>", "decimal_digits": 70579, "decimal_separator": "<value>", "symbol_first": false, "group_separator": "<value>", "currency_symbol": "R$", "display_symbol": true}}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getAccounts:
+    speakeasy-default-get-accounts:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"accounts": [], "server_knowledge": 246549}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  createAccount:
+    speakeasy-default-create-account:
+      parameters:
+        path:
+          budget_id: "<id>"
+      requestBody:
+        application/json: {"account": {"name": "<value>", "type": "medicalDebt", "balance": 127923}}
+      responses:
+        "201":
+          application/json: {"data": {"account": {"id": "b3fce8e4-82d5-4402-8e50-cc432481281a", "name": "<value>", "type": "studentLoan", "on_budget": true, "closed": true, "balance": 15091, "cleared_balance": 144084, "uncleared_balance": 721678, "transfer_payee_id": null, "deleted": false}}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getAccountById:
+    speakeasy-default-get-account-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          account_id: "d9448c33-e069-48c3-b1ac-8a31e11b2cd5"
+      responses:
+        "200":
+          application/json: {"data": {"account": {"id": "ced69bcd-45b0-4e13-9286-0db047302064", "name": "<value>", "type": "checking", "on_budget": false, "closed": false, "balance": 501879, "cleared_balance": 831233, "uncleared_balance": 998724, "transfer_payee_id": null, "deleted": true}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getCategories:
+    speakeasy-default-get-categories:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"category_groups": [], "server_knowledge": 716259}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getCategoryById:
+    speakeasy-default-get-category-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          category_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"category": {"id": "948e73ca-99d1-46f0-a0e6-f20b2b460efe", "category_group_id": "17e64d2c-56e5-4de8-9c6b-bf0c52337ff9", "name": "<value>", "hidden": false, "budgeted": 461578, "activity": 266424, "balance": 945427, "goal_needs_whole_amount": null, "deleted": false}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updateCategory:
+    speakeasy-default-update-category:
+      parameters:
+        path:
+          budget_id: "<id>"
+          category_id: "<id>"
+      requestBody:
+        application/json: {"category": {}}
+      responses:
+        "200":
+          application/json: {"data": {"category": {"id": "ab56e102-9360-41f5-a0cc-194edbd10167", "category_group_id": "0f0f1efc-798f-43cc-a5f5-aa51d3269fb4", "name": "<value>", "hidden": true, "budgeted": 382498, "activity": 381715, "balance": 894111, "goal_needs_whole_amount": null, "deleted": true}, "server_knowledge": 663926}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getMonthCategoryById:
+    speakeasy-default-get-month-category-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          month: "2025-10-27"
+          category_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"category": {"id": "6e33e479-c941-4de1-b784-e4605f432f43", "category_group_id": "16447980-30c0-4cfb-b49e-655162c73dbe", "name": "<value>", "hidden": false, "budgeted": 175220, "activity": 977529, "balance": 868544, "goal_needs_whole_amount": null, "deleted": true}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updateMonthCategory:
+    speakeasy-default-update-month-category:
+      parameters:
+        path:
+          budget_id: "<id>"
+          month: "2023-01-08"
+          category_id: "<id>"
+      requestBody:
+        application/json: {"category": {"budgeted": 147664}}
+      responses:
+        "200":
+          application/json: {"data": {"category": {"id": "2196fe5e-56a3-445f-89f9-e067dcb307a8", "category_group_id": "fc395ba6-34fd-41df-af83-96da8b31b61f", "name": "<value>", "hidden": true, "budgeted": 971533, "activity": 952801, "balance": 18154, "goal_needs_whole_amount": null, "deleted": true}, "server_knowledge": 896157}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getPayees:
+    speakeasy-default-get-payees:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"payees": [], "server_knowledge": 517384}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getPayeeById:
+    speakeasy-default-get-payee-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          payee_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"payee": {"id": "1e6bf0b0-f152-490e-81a3-e03ea040db5e", "name": "<value>", "deleted": false}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updatePayee:
+    speakeasy-default-update-payee:
+      parameters:
+        path:
+          budget_id: "<id>"
+          payee_id: "<id>"
+      requestBody:
+        application/json: {"payee": {}}
+      responses:
+        "200":
+          application/json: {"data": {"payee": {"id": "11a84016-9623-4291-9c09-9647303bf9cd", "name": "<value>", "deleted": false}, "server_knowledge": 610515}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getPayeeLocations:
+    speakeasy-default-get-payee-locations:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"payee_locations": [{"id": "5fd2e94c-6a45-407a-98ce-326afe4b8a2a", "payee_id": "8874191c-33d8-4cd0-a36f-196eab2e9c37", "latitude": "15.9174", "longitude": "-90.4062", "deleted": false}]}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getPayeeLocationById:
+    speakeasy-default-get-payee-location-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          payee_location_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"payee_location": {"id": "425567dc-9732-4966-ab04-1a39d104f4c1", "payee_id": "48806183-7a0a-4043-bc30-c14c876d503e", "latitude": "58.97", "longitude": "-130.6091", "deleted": false}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getPayeeLocationsByPayee:
+    speakeasy-default-get-payee-locations-by-payee:
+      parameters:
+        path:
+          budget_id: "<id>"
+          payee_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"payee_locations": [{"id": "389780d5-79ca-4eae-9bf3-39a075b9d4c7", "payee_id": "432d0725-319a-4b65-a1a8-84136439a41e", "latitude": "-44.5743", "longitude": "-144.2844", "deleted": false}]}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getBudgetMonths:
+    speakeasy-default-get-budget-months:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"months": [{"month": "2023-09-08", "income": 583422, "budgeted": 205077, "activity": 227876, "to_be_budgeted": 104827, "deleted": true}], "server_knowledge": 563339}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getBudgetMonth:
+    speakeasy-default-get-budget-month:
+      parameters:
+        path:
+          budget_id: "<id>"
+          month: "2025-03-18"
+      responses:
+        "200":
+          application/json: {"data": {"month": {"month": "2025-11-27", "income": 641384, "budgeted": 265028, "activity": 481543, "to_be_budgeted": 360720, "deleted": false, "categories": [{"id": "297ce802-0af3-4287-b8a3-0db5b0d5a131", "category_group_id": "3d0d31bd-5263-4eaf-a00f-e7b198af885a", "name": "<value>", "hidden": false, "budgeted": 890050, "activity": 650512, "balance": 975500, "goal_needs_whole_amount": null, "deleted": true}]}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactions:
+    speakeasy-default-get-transactions:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transactions": [{"id": "<id>", "date": "2025-07-28", "amount": 198321, "cleared": "uncleared", "approved": true, "account_id": "eba8f932-1130-4edd-b647-d456c1eebadf", "deleted": true, "account_name": "<value>", "subtransactions": []}], "server_knowledge": 896787}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  createTransaction:
+    speakeasy-default-create-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+      requestBody:
+        application/json: {}
+      responses:
+        "201":
+          application/json: {"data": {"transaction_ids": ["<value 1>", "<value 2>"], "server_knowledge": 361192}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updateTransactions:
+    speakeasy-default-update-transactions:
+      parameters:
+        path:
+          budget_id: "<id>"
+      requestBody:
+        application/json: {"transactions": [{}]}
+      responses:
+        "209":
+          application/json: {"data": {"transaction_ids": [], "server_knowledge": 843173}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  importTransactions:
+    speakeasy-default-import-transactions:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transaction_ids": ["<value 1>", "<value 2>", "<value 3>"]}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactionById:
+    speakeasy-default-get-transaction-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          transaction_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transaction": {"id": "<id>", "date": "2023-07-28", "amount": 611734, "cleared": "cleared", "approved": true, "account_id": "23c9de99-0398-4e24-8fa5-bbdf9480cb32", "deleted": true, "account_name": "<value>", "subtransactions": [{"id": "<id>", "transaction_id": "<id>", "amount": 185207, "deleted": false}]}, "server_knowledge": 482991}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updateTransaction:
+    speakeasy-default-update-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+          transaction_id: "<id>"
+      requestBody:
+        application/json: {"transaction": {}}
+      responses:
+        "200":
+          application/json: {"data": {"transaction": {"id": "<id>", "date": "2025-12-14", "amount": 5862, "cleared": "reconciled", "approved": true, "account_id": "d0ef5679-c1b6-4982-8c64-e97e8c1d5e16", "deleted": false, "account_name": "<value>", "subtransactions": [{"id": "<id>", "transaction_id": "<id>", "amount": 172744, "deleted": false}]}, "server_knowledge": 211731}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  deleteTransaction:
+    speakeasy-default-delete-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+          transaction_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transaction": {"id": "<id>", "date": "2024-10-11", "amount": 146238, "cleared": "uncleared", "approved": true, "account_id": "6ee2a2bc-4aa7-4af6-9891-695fc32173a6", "deleted": true, "account_name": "<value>", "subtransactions": [{"id": "<id>", "transaction_id": "<id>", "amount": 917559, "deleted": false}]}, "server_knowledge": 409229}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactionsByAccount:
+    speakeasy-default-get-transactions-by-account:
+      parameters:
+        path:
+          budget_id: "<id>"
+          account_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transactions": [], "server_knowledge": 300232}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactionsByCategory:
+    speakeasy-default-get-transactions-by-category:
+      parameters:
+        path:
+          budget_id: "<id>"
+          category_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transactions": [{"id": "<id>", "date": "2023-06-18", "amount": 720551, "cleared": "uncleared", "approved": true, "account_id": "27be524f-dc73-4505-a7a2-4b9932009b2a", "deleted": true, "type": "subtransaction", "account_name": "<value>"}]}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactionsByPayee:
+    speakeasy-default-get-transactions-by-payee:
+      parameters:
+        path:
+          budget_id: "<id>"
+          payee_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"transactions": []}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getTransactionsByMonth:
+    speakeasy-default-get-transactions-by-month:
+      parameters:
+        path:
+          budget_id: "<id>"
+          month: "<value>"
+      responses:
+        "200":
+          application/json: {"data": {"transactions": [{"id": "<id>", "date": "2023-07-18", "amount": 595841, "cleared": "uncleared", "approved": false, "account_id": "804e5e34-56e3-4e6e-9b8e-c782a447a31e", "deleted": false, "account_name": "<value>", "subtransactions": [{"id": "<id>", "transaction_id": "<id>", "amount": 103704, "deleted": true}]}], "server_knowledge": 922150}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getScheduledTransactions:
+    speakeasy-default-get-scheduled-transactions:
+      parameters:
+        path:
+          budget_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"scheduled_transactions": [{"id": "57aa1b5a-0985-4852-b739-8d8b0f081b4f", "date_first": "2023-07-07", "date_next": "2025-12-14", "frequency": "yearly", "amount": 529710, "account_id": "e4b6a890-2b59-423c-8a4d-93941cd3f930", "deleted": false, "account_name": "<value>", "subtransactions": []}], "server_knowledge": 287093}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  createScheduledTransaction:
+    speakeasy-default-create-scheduled-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+      requestBody:
+        application/json: {"scheduled_transaction": {"account_id": "1cb7f54b-9ed5-48fd-8642-a56bd5ee2fca", "date": "2024-04-15"}}
+      responses:
+        "201":
+          application/json: {"data": {"scheduled_transaction": {"id": "bbc12230-712c-4928-9536-0536976691cf", "date_first": "2023-01-19", "date_next": "2024-09-07", "frequency": "everyOtherYear", "amount": 735416, "account_id": "4a0850fa-b6ab-46ab-9668-ae68541e0d79", "deleted": false, "account_name": "<value>", "subtransactions": []}}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  getScheduledTransactionById:
+    speakeasy-default-get-scheduled-transaction-by-id:
+      parameters:
+        path:
+          budget_id: "<id>"
+          scheduled_transaction_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"scheduled_transaction": {"id": "c40637fb-c914-4dea-90d5-8a6cecc7fe69", "date_first": "2024-06-13", "date_next": "2025-08-23", "frequency": "everyOtherYear", "amount": 916585, "account_id": "f97e95b4-ebb9-4ee4-8e1d-7358a1168e70", "deleted": true, "account_name": "<value>", "subtransactions": [{"id": "3188c7e3-bdd1-4b72-bf5b-157131361cb2", "scheduled_transaction_id": "9ad91816-1d41-4021-9534-b61b790b2b9e", "amount": 412222, "deleted": true}]}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+        default:
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  updateScheduledTransaction:
+    speakeasy-default-update-scheduled-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+          scheduled_transaction_id: "<id>"
+      requestBody:
+        application/json: {"scheduled_transaction": {"account_id": "8ca52c3e-66a2-43a1-82f1-fa05cadf8245", "date": "2025-01-04"}}
+      responses:
+        "200":
+          application/json: {"data": {"scheduled_transaction": {"id": "71c70142-45c6-441d-b263-ffd896e5e65a", "date_first": "2023-05-10", "date_next": "2025-06-28", "frequency": "everyOtherWeek", "amount": 795379, "account_id": "46f42d81-ceac-4543-94c4-c78e4eff4339", "deleted": true, "account_name": "<value>", "subtransactions": []}}}
+        "400":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+  deleteScheduledTransaction:
+    speakeasy-default-delete-scheduled-transaction:
+      parameters:
+        path:
+          budget_id: "<id>"
+          scheduled_transaction_id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"scheduled_transaction": {"id": "83afa6aa-bffb-431b-92ef-0b4d7c251023", "date_first": "2024-09-14", "date_next": "2023-05-01", "frequency": "twiceAMonth", "amount": 204334, "account_id": "ed95cffb-7155-4f45-8eeb-3339ae9b0687", "deleted": false, "account_name": "<value>", "subtransactions": []}}}
+        "404":
+          application/json: {"error": {"id": "<id>", "name": "<value>", "detail": "<value>"}}
+examplesVersion: 1.0.2

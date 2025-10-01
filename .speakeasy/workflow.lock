@@ -1,0 +1,36 @@
+speakeasyVersion: 1.625.0
+sources:
+    Ynab-OAS:
+        sourceNamespace: ynab-api
+        sourceRevisionDigest: sha256:1276286aa43fc79e84ec0f3390b7b1a6debfa097be1f55493b229463d569b717
+        sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
+        tags:
+            - latest
+targets:
+    ynab:
+        source: Ynab-OAS
+        sourceNamespace: ynab-api
+        sourceRevisionDigest: sha256:1276286aa43fc79e84ec0f3390b7b1a6debfa097be1f55493b229463d569b717
+        sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
+        codeSamplesNamespace: ynab-oas-csharp-code-samples
+        codeSamplesRevisionDigest: sha256:415ce0c8627d40f11d1726980fd1716e24a47efaf0c9a4bb5e911428dc3d5481
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Ynab-OAS:
+            inputs:
+                - location: registry.speakeasyapi.dev/walker/ynab/ynab-api:main
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/walker/ynab/ynab-oas
+    targets:
+        ynab:
+            target: csharp
+            source: Ynab-OAS
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/walker/ynab/ynab-oas-csharp-code-samples
+                labelOverride:
+                    fixedValue: Csharp (SDK)
+                blocking: false
