@@ -3,10 +3,12 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <PackageId>WalkerTX.Ynab.SDK</PackageId>
-    <Version>0.0.1</Version>
-    <TargetFramework>net8.0</TargetFramework>
-    <Authors>Speakeasy</Authors>
-    <Copyright>Copyright (c) Speakeasy 2025</Copyright>
+    <Version>0.0.2</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>Walker Lockard</Authors>
+    <Copyright>Copyright (c) Walker Lockard 2025</Copyright>
+    <RepositoryUrl>https://github.com/walker-tx/ynab-csharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <Description>YNAB API Endpoints: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com</Description>
   </PropertyGroup>
 

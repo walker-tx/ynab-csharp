@@ -1,4 +1,4 @@
-speakeasyVersion: 1.625.0
+speakeasyVersion: 1.631.5
 sources:
     Ynab-OAS:
         sourceNamespace: ynab-api
@@ -6,6 +6,7 @@ sources:
         sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
         tags:
             - latest
+            - speakeasy-sdk-regen-1759343479
 targets:
     ynab:
         source: Ynab-OAS
@@ -13,7 +14,7 @@ targets:
         sourceRevisionDigest: sha256:1276286aa43fc79e84ec0f3390b7b1a6debfa097be1f55493b229463d569b717
         sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
         codeSamplesNamespace: ynab-oas-csharp-code-samples
-        codeSamplesRevisionDigest: sha256:415ce0c8627d40f11d1726980fd1716e24a47efaf0c9a4bb5e911428dc3d5481
+        codeSamplesRevisionDigest: sha256:affe1e539107c6791ad02a6e105b3ea80c6a1c53a428a5ec0f169ee606255bb9
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest

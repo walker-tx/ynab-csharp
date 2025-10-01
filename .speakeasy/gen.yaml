@@ -24,7 +24,7 @@ generation:
     generateNewTests: true
     skipResponseBodyAssertions: false
 csharp:
-  version: 0.0.1
+  version: 0.0.2
   additionalDependencies: []
   author: Walker Lockard
   baseErrorName: YnabException
@@ -53,3 +53,4 @@ csharp:
   packageTags: ""
   responseFormat: envelope-http
   sourceDirectory: src
+  useNodatime: true

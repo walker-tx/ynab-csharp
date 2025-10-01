@@ -3,15 +3,16 @@ id: 70221ac3-f6fb-46dc-bf25-46a34d5b79ff
 management:
   docChecksum: bb0f93f0a512f51fdce46178ad7a48cd
   docVersion: 1.77.0
-  speakeasyVersion: 1.625.0
-  generationVersion: 2.715.0
-  releaseVersion: 0.0.1
-  configChecksum: 3fc0f54940ed48c41227610ea13dd66c
+  speakeasyVersion: 1.631.5
+  generationVersion: 2.716.16
+  releaseVersion: 0.0.2
+  configChecksum: 6287c180004ee460032529299f99a905
+  repoURL: https://github.com/walker-tx/ynab-csharp.git
 features:
   csharp:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.0.1
-    core: 3.12.3
+    core: 3.12.4
     errors: 1.0.0
     flattening: 2.81.3
     globalSecurity: 2.83.8
