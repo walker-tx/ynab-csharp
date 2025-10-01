@@ -42,7 +42,7 @@ namespace WalkerTX.Ynab.SDK
             Client = client ?? new YnabHttpClient();
             ServerUrl = "";
             ServerIndex = 0;
-            UserAgent = "speakeasy-sdk/csharp 0.0.2 2.716.16 1.77.0 WalkerTX.Ynab.SDK";
+            UserAgent = "speakeasy-sdk/csharp 0.1.0 2.719.3 1.77.0 WalkerTX.Ynab.SDK";
             SecuritySource = null;
             Hooks = new SDKHooks();
             RetryConfig = null;

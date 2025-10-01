@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <PackageId>WalkerTX.Ynab.SDK</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.1.0</Version>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>Walker Lockard</Authors>
     <Copyright>Copyright (c) Walker Lockard 2025</Copyright>

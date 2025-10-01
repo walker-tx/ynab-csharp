@@ -24,7 +24,7 @@ generation:
     generateNewTests: true
     skipResponseBodyAssertions: false
 csharp:
-  version: 0.0.2
+  version: 0.1.0
   additionalDependencies: []
   author: Walker Lockard
   baseErrorName: YnabException
@@ -32,6 +32,7 @@ csharp:
   defaultErrorName: APIException
   disableNamespacePascalCasingApr2024: true
   dotnetVersion: net6.0
+  enableCancellationToken: false
   enableSourceLink: false
   flattenGlobalSecurity: true
   flatteningOrder: parameters-first
