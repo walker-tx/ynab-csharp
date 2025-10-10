@@ -1,11 +1,14 @@
 openapi: 3.0.0
 info:
-    title: YNAB API Endpoints
+    title: YNAB API Endpoints an edit
     description: >-
         Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
     version: 1.77.0
 servers:
     - url: https://api.ynab.com/v1
+      description: production
+    - url: https://staging.api.ynab.com/v1
+      description: staging
 security:
     - bearer: []
 tags:

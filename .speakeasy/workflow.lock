@@ -1,20 +1,20 @@
-speakeasyVersion: 1.632.0
+speakeasyVersion: 1.636.3
 sources:
     Ynab-OAS:
         sourceNamespace: ynab-api
-        sourceRevisionDigest: sha256:1276286aa43fc79e84ec0f3390b7b1a6debfa097be1f55493b229463d569b717
-        sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
+        sourceRevisionDigest: sha256:6e0ddb347d0ecac3a6b3bd2da39949c9972ebe38f50d05f94ea6efd2ef705a21
+        sourceBlobDigest: sha256:e4e2e52d9d4387a2d9173c8b5d5cfa4c6c4a6f6cfcd6698bfdae5d9453062082
         tags:
             - latest
-            - speakeasy-sdk-regen-1759343762
+            - speakeasy-sdk-regen-1760055092
 targets:
     ynab:
         source: Ynab-OAS
         sourceNamespace: ynab-api
-        sourceRevisionDigest: sha256:1276286aa43fc79e84ec0f3390b7b1a6debfa097be1f55493b229463d569b717
-        sourceBlobDigest: sha256:17953cbf65173e2747eec5321392e30d86202f932f3611a0a2aa92e739ca5948
+        sourceRevisionDigest: sha256:6e0ddb347d0ecac3a6b3bd2da39949c9972ebe38f50d05f94ea6efd2ef705a21
+        sourceBlobDigest: sha256:e4e2e52d9d4387a2d9173c8b5d5cfa4c6c4a6f6cfcd6698bfdae5d9453062082
         codeSamplesNamespace: ynab-oas-csharp-code-samples
-        codeSamplesRevisionDigest: sha256:8f6d97b25bac23a5b4cc3f9c536dae6db9757e174e44876a3bb6bf4bcc8c16a4
+        codeSamplesRevisionDigest: sha256:98b78996e6a75ff9c39ece09d0a2b18aed55a33de2675c04341438190268fda3
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest

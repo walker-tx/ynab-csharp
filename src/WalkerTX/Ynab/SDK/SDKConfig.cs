@@ -24,6 +24,7 @@ namespace WalkerTX.Ynab.SDK
         /// </summary>
         public static readonly string[] ServerList = {
             "https://api.ynab.com/v1",
+            "https://staging.api.ynab.com/v1",
         };
 
         public IYnabHttpClient Client;
@@ -42,7 +43,7 @@ namespace WalkerTX.Ynab.SDK
             Client = client ?? new YnabHttpClient();
             ServerUrl = "";
             ServerIndex = 0;
-            UserAgent = "speakeasy-sdk/csharp 0.1.0 2.719.3 1.77.0 WalkerTX.Ynab.SDK";
+            UserAgent = "speakeasy-sdk/csharp 0.1.1 2.723.11 1.77.0 WalkerTX.Ynab.SDK";
             SecuritySource = null;
             Hooks = new SDKHooks();
             RetryConfig = null;

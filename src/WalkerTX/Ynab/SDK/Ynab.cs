@@ -21,7 +21,7 @@ namespace WalkerTX.Ynab.SDK
     using WalkerTX.Ynab.SDK.Utils.Retries;
 
     /// <summary>
-    /// YNAB API Endpoints: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
+    /// YNAB API Endpoints an edit: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
     /// </summary>
     public interface IYnab
     {
@@ -58,15 +58,15 @@ namespace WalkerTX.Ynab.SDK
 
 
     /// <summary>
-    /// YNAB API Endpoints: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
+    /// YNAB API Endpoints an edit: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
     /// </summary>
     public class Ynab: IYnab
     {
         public SDKConfig SDKConfiguration { get; private set; }
 
         private const string _language = "csharp";
-        private const string _sdkVersion = "0.1.0";
-        private const string _sdkGenVersion = "2.719.3";
+        private const string _sdkVersion = "0.1.1";
+        private const string _sdkGenVersion = "2.723.11";
         private const string _openapiDocVersion = "1.77.0";
         public IUser User { get; private set; }
         public IBudgets Budgets { get; private set; }

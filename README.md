@@ -17,7 +17,7 @@ Developer-friendly & type-safe Csharp SDK specifically catered to leverage *Walk
 <!-- Start Summary [summary] -->
 ## Summary
 
-YNAB API Endpoints: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
+YNAB API Endpoints an edit: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com
 <!-- End Summary [summary] -->
 
 <!-- Start Table of Contents [toc] -->
@@ -155,7 +155,6 @@ var res = await sdk.User.GetAsync();
 
 * [Get](docs/sdks/user/README.md#get) - User info
 
-
 </details>
 <!-- End Available Resources and Operations [operations] -->
 
@@ -236,15 +235,40 @@ catch (System.Net.Http.HttpRequestException ex)
 <!-- Start Server Selection [server] -->
 ## Server Selection
 
-### Override Server URL Per-Client
+### Select Server by Index
 
-The default server can be overridden globally by passing a URL to the `serverUrl: string` optional parameter when initializing the SDK client instance. For example:
+You can override the default server globally by passing a server index to the `serverIndex: int` optional parameter when initializing the SDK client instance. The selected server will then be used as the default on the operations that use it. This table lists the indexes associated with the available servers:
+
+| #   | Server                            | Description |
+| --- | --------------------------------- | ----------- |
+| 0   | `https://api.ynab.com/v1`         | production  |
+| 1   | `https://staging.api.ynab.com/v1` | staging     |
+
+#### Example
+
 ```csharp
 using WalkerTX.Ynab.SDK;
 using WalkerTX.Ynab.SDK.Models.Components;
 
 var sdk = new Ynab(
-    serverUrl: "https://api.ynab.com/v1",
+    serverIndex: 1,
+    bearer: "<YOUR_BEARER_TOKEN_HERE>"
+);
+
+var res = await sdk.User.GetAsync();
+
+// handle response
+```
+
+### Override Server URL Per-Client
+
+The default server can also be overridden globally by passing a URL to the `serverUrl: string` optional parameter when initializing the SDK client instance. For example:
+```csharp
+using WalkerTX.Ynab.SDK;
+using WalkerTX.Ynab.SDK.Models.Components;
+
+var sdk = new Ynab(
+    serverUrl: "https://staging.api.ynab.com/v1",
     bearer: "<YOUR_BEARER_TOKEN_HERE>"
 );
 

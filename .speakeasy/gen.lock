@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 70221ac3-f6fb-46dc-bf25-46a34d5b79ff
 management:
-  docChecksum: bb0f93f0a512f51fdce46178ad7a48cd
+  docChecksum: 45daa7c713aaa139790332f39b3f4f60
   docVersion: 1.77.0
-  speakeasyVersion: 1.632.0
-  generationVersion: 2.719.3
-  releaseVersion: 0.1.0
-  configChecksum: dffdb3f6ca529aa46352a3989df60184
+  speakeasyVersion: 1.636.3
+  generationVersion: 2.723.11
+  releaseVersion: 0.1.1
+  configChecksum: 5a684511e1d8ca4c2d2f93104216e8df
   repoURL: https://github.com/walker-tx/ynab-csharp.git
 features:
   csharp:
@@ -19,7 +19,7 @@ features:
     globalSecurityCallbacks: 0.1.0
     globalSecurityFlattening: 0.1.0
     globalServerURLs: 2.82.4
-    groups: 2.81.2
+    groups: 2.81.3
     intellisenseMarkdownSupport: 0.1.0
     methodArguments: 0.2.1
     nameOverrides: 2.81.2
@@ -216,7 +216,6 @@ generatedFiles:
   - docs/sdks/scheduledtransactions/README.md
   - docs/sdks/transactions/README.md
   - docs/sdks/user/README.md
-  - docs/sdks/ynab/README.md
   - global.json
   - src/WalkerTX/Ynab/SDK/Accounts.cs
   - src/WalkerTX/Ynab/SDK/Budgets.cs
